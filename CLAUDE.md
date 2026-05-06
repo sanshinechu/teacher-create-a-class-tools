@@ -1,7 +1,8 @@
 # teacher-create-a-class-tools — 我的班級工具總專案
 
 ## 對話開始時請先讀
-進度與最近更動都在 Obsidian：`G:\我的雲端硬碟\工作筆記本\teacher-create-a-class-tools\工作筆記.md`
+進度與最近更動都在 Obsidian：`<GDrive>\工作筆記本\teacher-create-a-class-tools\工作筆記.md`
+（`<GDrive>` 是 Google Drive 的掛載路徑，不同電腦可能是 G:\ 或 I:\ 等，請自行確認）
 
 ## 工作模式
 - **加新工具**：對 Claude 說「我想做一個 XXX 工具」→ Claude 會建 `tools/<工具名>/` 子資料夾、引導我跟著 EP10 影片做
@@ -9,9 +10,9 @@
 - **接續工作**：對 Claude 說「讀工作筆記、告訴我上次做到哪」
 
 ## 工作桌 + 三個家
-- GDrive 工作桌：`G:\我的雲端硬碟\teacher-create-a-class-tools\`（自動跨電腦同步）
+- GDrive 工作桌：`<GDrive>\我的雲端硬碟\teacher-create-a-class-tools\`（自動跨電腦同步，磁碟代號依電腦而異）
 - GitHub repo：`sanshinechu/teacher-create-a-class-tools`（公開，網頁的家）
-- Obsidian 駕駛艙：`G:\我的雲端硬碟\工作筆記本\teacher-create-a-class-tools\工作筆記.md`（想法的家）
+- Obsidian 駕駛艙：`<GDrive>\我的雲端硬碟\工作筆記本\teacher-create-a-class-tools\工作筆記.md`（想法的家）
 - Firebase 專案：`my-teaching-tools`（或你建的，資料的家）
 
 ## 工具清單
