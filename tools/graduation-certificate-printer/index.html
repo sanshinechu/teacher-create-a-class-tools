@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>畢業典禮獎狀列印</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="workspace">
+        <aside class="panel controls" aria-label="列印設定">
+          <h1>畢業典禮獎狀列印</h1>
+
+          <label class="field">
+            <span>學校名稱</span>
+            <input id="schoolName" type="text" value="陽光國小">
+          </label>
+
+          <label class="field">
+            <span>典禮名稱</span>
+            <input id="ceremonyName" type="text" value="畢業典禮">
+          </label>
+
+          <label class="field">
+            <span>頒獎日期</span>
+            <input id="awardDate" type="text" value="中華民國 115 年 6 月">
+          </label>
+
+          <label class="field">
+            <span>名單 CSV</span>
+            <input id="csvFile" type="file" accept=".csv,text/csv">
+          </label>
+
+          <div class="actions">
+            <button id="loadSample" type="button">載入範例</button>
+            <button id="printAll" type="button">列印全部</button>
+          </div>
+
+          <label class="field">
+            <span>目前獎狀</span>
+            <select id="recipientSelect"></select>
+          </label>
+
+          <p class="privacy-note">資料只在本機瀏覽器處理；請勿把真實學生名單提交到 Git。</p>
+        </aside>
+
+        <section class="preview-area" aria-label="獎狀預覽">
+          <article id="certificate" class="certificate">
+            <div class="certificate-inner">
+              <p id="certSchool" class="school-name">陽光國小</p>
+              <p id="certCeremony" class="ceremony-name">畢業典禮</p>
+              <h2>獎狀</h2>
+              <p class="recipient-line">
+                <span id="certClass">G6A</span>
+                <span>班</span>
+                <span id="certSeat">01</span>
+                <span>號</span>
+                <strong id="certName">王小明</strong>
+              </p>
+              <p class="award-copy">
+                榮獲 <strong id="certAward">市長獎</strong>，表現優異，特頒此狀，以資鼓勵。
+              </p>
+              <footer>
+                <span>校長 __________________</span>
+                <span id="certDate">中華民國 115 年 6 月</span>
+              </footer>
+            </div>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
